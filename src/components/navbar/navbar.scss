@@ -1,0 +1,65 @@
+@import '../../app.scss';
+
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1080px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        @include mobile{
+            justify-content: flex-end;
+            padding: 20px;
+        }
+
+        span{
+            font-weight: bold;
+
+            @include mobile{
+                display: none;
+              }
+        }
+
+        .social{
+            display: flex;
+            gap: 20px;
+
+            img{
+                width: 18px;
+                height: 18px;
+            }
+
+            /* ButtonWithTooltip.css */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color:#ffcd81be;
+    color: #033610;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -70px; /* Position the tooltip above the button */
+    left: 50%;
+    margin-left: -60px; /* Center the tooltip above the button */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+        }
+    }
+}
