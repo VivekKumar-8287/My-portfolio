@@ -1,8 +1,10 @@
-# React + Vite
+# My Personal Blog Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have used react js a powerful JavaScript library for UI design and for animation Framer animation for animation 
 
-Currently, two official plugins are available:
+Click for live preview:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [My Personal Blog Site](https://vivekmyportfolio.netlify.app/)
+
+  ![My Personal BlogSite Screenshot 1](https://github.com/user-attachments/assets/ec031f98-7c92-4df1-ab03-3817cee7cd5a)
+![My Personal BlogSite Screenshot 2](https://github.com/user-attachments/assets/e9ac6779-d1db-47eb-a1b8-fb9b1a596b82)
